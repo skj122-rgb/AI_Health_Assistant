@@ -38,7 +38,7 @@ st.write(
 # -----------------------------
 question = st.text_input(
     "Ask your health question:",
-    placeholder="Example: Why is sleep important?"
+    placeholder=""
 )
 
 # -----------------------------
@@ -90,6 +90,5 @@ st.divider()
 
 st.caption(
     "⚠️ Disclaimer: This AI Health Assistant provides general "
-    "health and wellness information only. It is not a substitute "
-    "for professional medical advice, diagnosis, or treatment."
+    "health and wellness information only."
 )
